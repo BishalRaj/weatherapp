@@ -6,7 +6,7 @@ import EarthCloudMap from "../../assets/textures/8k_earth_clouds.jpg";
 import EarthNormalMap from "../../assets/textures/8k_earth_normal_map.jpg";
 import EarthSpecularMap from "../../assets/textures/8k_earth_specular_map.jpg";
 import { TextureLoader } from "three";
-import { OrbitControls } from "@react-three/drei";
+import { OrbitControls,Stars } from "@react-three/drei";
 
 import * as THREE from 'three'
 
@@ -20,6 +20,11 @@ export function Earth() {
   return (
     <>
       <ambientLight intensity={0.7} />
+      <Stars radius={300} depth={60} 
+      factor={7}
+      fade={true}
+    //   count={20000}
+       />
       <mesh>
         <sphereGeometry args={[1.005,32,32]} />
         <meshPhongMaterial map={cloudMap} opacity={0.4} depthWrite={true} transparent={true} side={THREE.DoubleSide} />
