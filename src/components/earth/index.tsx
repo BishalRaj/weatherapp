@@ -44,7 +44,7 @@ export function Earth() {
         // to position object
         // position={[0, 0, 3]}
       >
-        <sphereGeometry args={[1.005, 100, 100]} />
+        <sphereGeometry args={[2.005, 100, 100]} />
         <meshPhongMaterial
           map={cloudMap}
           opacity={0.4}
@@ -61,7 +61,7 @@ export function Earth() {
         <sphereGeometry
           // change width and height segment for smoothness
           // size , width segment, height segment
-          args={[1, 150, 150]}
+          args={[1.98, 150, 150]}
         />
         {/* <meshPhongMaterial color="blue" /> */}
         <meshStandardMaterial
