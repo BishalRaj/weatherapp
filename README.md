@@ -1,37 +1,57 @@
-#Weather App
-A weather application built using React and Three.js. This application displays weather information in a 3D environment.
+# WeatherApp
+A React-based weather application built with Three.js for rendering 3D visuals.
+
+Table of Contents
+Installation
+Usage
+Features
+Technologies
+Contributing
+License
+Installation
+To install and use WeatherApp, follow these steps:
+
+Clone the repository to your local machine:
+```
+bash
+Copy code
+git clone https://github.com/your-username/weatherapp.git
+```
+Install the dependencies:
+```
+bash
+Copy code
+npm install
+```
+Start the development server:
+```
+bash
+Copy code
+npm run dev
+```
+Usage
+Once you have the application running, you will be prompted to enter a location to view the weather for. After submitting the location, you will be presented with a 3D visual of the weather conditions in that area. You can use your mouse to rotate and zoom the camera for a better view.
 
 Features
-3D visualization of weather information
+3D weather visualization
 Real-time weather data
-Stylish user interface
-Responsive design
-Installation
-To install and run the project locally, follow these steps:
+User-friendly interface
+Easy to customize
+Technologies
+WeatherApp was built using the following technologies:
 
-Clone the repository: git clone https://github.com/your-username/weatherapp.git
-Navigate to the project directory: cd weatherapp
-Install dependencies: npm install
-Run the development server: npm run dev
-Usage
-To use the application, open your browser and navigate to http://localhost:3000.
+React
+Three.js
+Styled Components
+TypeScript
+Vite
+Contributing
+If you would like to contribute to WeatherApp, please follow these guidelines:
 
-Scripts
-dev: Runs the development server using Vite.
-build: Builds the project using TypeScript and Vite.
-preview: Serves the built project using Vite.
-Dependencies
-@react-three/drei: Library containing useful helpers and abstractions for Three.js.
-@react-three/fiber: React renderer for Three.js.
-@types/three: TypeScript type definitions for Three.js.
-react: React library for building user interfaces.
-react-dom: React library for manipulating the DOM.
-styled-components: Library for styling React components.
-three: JavaScript 3D library.
-Dev Dependencies
-@types/react: TypeScript type definitions for React.
-@types/react-dom: TypeScript type definitions for React DOM.
-@types/styled-components: TypeScript type definitions for styled-components.
-@vitejs/plugin-react: Vite plugin for React support.
-typescript: TypeScript language compiler.
-vite: Next-generation frontend build tool.
+Fork the repository
+Create a new branch for your feature or bug fix
+Commit your changes
+Push your branch to your forked repository
+Open a pull request
+License
+WeatherApp is released under the MIT License.
