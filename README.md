@@ -1,4 +1,4 @@
-Weather App
+#Weather App
 A weather application built using React and Three.js. This application displays weather information in a 3D environment.
 
 Features
